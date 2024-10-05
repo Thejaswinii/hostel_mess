@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPGIT Mess Login</title>
+    <link rel="stylesheet" href="staff_login.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>TPGIT MESS</h1>
+            </div>
+            <nav>
+                <ul>
+                    
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="login-container">
+            
+            <div class="login-box">
+                <h2>Staff Login</h2>
+                <form action="submit_login.php" method="post">
+                    
+                    <label for="regno">Email:</label>
+                    <input type="text" id="regno" name="email"  required>
+                    
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <div class="remember-me">
+                        
+                        <label for="remember"><input type="checkbox" id="remember" name="remember">Remember me</label>
+                        <a href="#" class="forgot-password">forgot password</a>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <p>Don't have an account? <a href="register.html">Register here</a></p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
